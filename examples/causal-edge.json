@@ -1,0 +1,12 @@
+{
+  "edge_id": "edge-demo-1",
+  "from": "virtual-device-attach",
+  "to": "function-entry",
+  "relationship": "candidate_causal_effect",
+  "evidence_level": "inferred",
+  "observations": [
+    "evt-demo-001"
+  ],
+  "interventions": [],
+  "validated": false
+}

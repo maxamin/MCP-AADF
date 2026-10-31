@@ -1,0 +1,8 @@
+schema_version: '1.0'
+experiment_id: marker-copy-lab
+subject: owned-test-process
+synthetic_marker: lab-only-marker-001
+allowed_operations: [create_marker, observe_marker]
+expected_flow: [input_buffer, copy_function, output_buffer]
+prohibit_sensitive_data: true
+repeat_count: 5

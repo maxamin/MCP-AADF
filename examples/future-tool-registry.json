@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "tools": [
+    {
+      "name": "TraceFuse",
+      "classification": "proposed_new_tool",
+      "implementation_status": "not_implemented"
+    },
+    {
+      "name": "MemoryBeacon",
+      "classification": "proposed_new_tool",
+      "implementation_status": "not_implemented"
+    },
+    {
+      "name": "DeviceChronicle",
+      "classification": "proposed_new_tool",
+      "implementation_status": "not_implemented"
+    },
+    {
+      "name": "CausalGraphLab",
+      "classification": "proposed_new_tool",
+      "implementation_status": "not_implemented"
+    },
+    {
+      "name": "BoundaryOracle",
+      "classification": "proposed_new_tool",
+      "implementation_status": "not_implemented"
+    },
+    {
+      "name": "DriverForge",
+      "classification": "proposed_new_tool",
+      "implementation_status": "not_implemented"
+    },
+    {
+      "name": "FidelityMeter",
+      "classification": "proposed_new_tool",
+      "implementation_status": "not_implemented"
+    },
+    {
+      "name": "TraceGapInspector",
+      "classification": "proposed_new_tool",
+      "implementation_status": "not_implemented"
+    },
+    {
+      "name": "ExperimentCompiler",
+      "classification": "proposed_new_tool",
+      "implementation_status": "not_implemented"
+    },
+    {
+      "name": "ReplayProof",
+      "classification": "proposed_new_tool",
+      "implementation_status": "not_implemented"
+    },
+    {
+      "name": "ProtocolCartographer",
+      "classification": "proposed_new_tool",
+      "implementation_status": "not_implemented"
+    },
+    {
+      "name": "ProvenanceLedger",
+      "classification": "proposed_new_tool",
+      "implementation_status": "not_implemented"
+    }
+  ]
+}

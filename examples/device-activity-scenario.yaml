@@ -1,0 +1,13 @@
+schema_version: '1.0'
+scenario_id: virtual-usb-lab
+scope: isolated-virtual-machine
+seed: 42
+duration_ms: 3000
+events:
+  - {at_ms: 100, kind: attach, device: virtual-storage}
+  - {at_ms: 600, kind: io_read, device: virtual-storage, bytes: 512}
+  - {at_ms: 1200, kind: injected_timeout, device: virtual-storage}
+  - {at_ms: 2500, kind: detach, device: virtual-storage}
+assertions:
+  - no_unexpected_host_device_access
+  - timeline_is_replayable

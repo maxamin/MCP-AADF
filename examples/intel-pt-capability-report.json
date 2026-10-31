@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "adapter": "intel-pt",
+  "status": "unsupported_on_this_fixture",
+  "reason": "example_only_no_hardware_probe",
+  "capabilities": {
+    "control_flow": true,
+    "memory_values": false,
+    "cross_platform": false
+  },
+  "quality": {
+    "trace_loss": null
+  }
+}

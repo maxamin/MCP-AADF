@@ -1,0 +1,7 @@
+experiment_id: example-readonly-inspection
+environment: isolated_lab
+target_class: owned_fixture
+operations:
+  - demo.cli.inspect
+rollback_required: false
+evidence_required: true

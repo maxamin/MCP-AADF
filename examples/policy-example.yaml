@@ -1,0 +1,7 @@
+policy_version: 1
+default: deny
+rules:
+  - target_class: owned_fixture
+    operation: demo.cli.inspect
+    environment: isolated_lab
+    decision: allow

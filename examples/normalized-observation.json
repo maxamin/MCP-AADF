@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "event_id": "evt-demo-001",
+  "experiment_id": "exp-demo",
+  "subject_id": "owned-fixture",
+  "authorization_scope": "lab-owned-fixture",
+  "adapter_version": "fixture-0.1",
+  "evidence_id": "sha256:example-placeholder",
+  "event_type": "basic_block_observed",
+  "monotonic_ns": 120000,
+  "time_uncertainty_ns": 1000,
+  "evidence_level": "observed",
+  "payload": {
+    "module_build_id": "demo",
+    "offset_hex": "0x120"
+  }
+}
